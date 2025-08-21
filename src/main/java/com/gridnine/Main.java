@@ -1,12 +1,12 @@
-package com.gridnine.testing;
+package com.gridnine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestingApplication {
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestingApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 }
